@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.div1{
+			height: 20vh;
+			width: 10%;
+			background-color: red;
+			animation-name: paresh;
+			animation-duration: 4s;
+			animation-iteration-count: infinite;
+
+		}
+		
+		@keyframes paresh{
+			0%{
+				background-color: red;
+                position: absolute;
+				right: 100px;
+
+			}
+			25%{
+				background-color: yellow;
+				position: absolute;
+				bottom: 100px;
+			}
+			50%{
+				background-color: green;
+				position: absolute;
+				left: 40px;
+			}
+			100%{
+				background-color: blue;
+				position: absolute;
+				top: 20px;
+			}
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="div1"></div>
+
+
+</body>
+</html>
